@@ -6,4 +6,4 @@
 
 Метод generateFiles() - создает файлы с названиями, соответствующими заголовкам в csv-файлах и содержимым - уникальными значениями из этих файлов. 
 
-Файлы id.csv, name.csv, path.csv, sex.csv, version.csv - файлы, сгенерированные с помощью метода generateFiles()/
+Файлы id.txt, name.txt, path.txt, sex.txt, version.txt - файлы, сгенерированные с помощью метода generateFiles().
