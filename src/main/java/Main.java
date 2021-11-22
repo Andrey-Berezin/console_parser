@@ -35,7 +35,7 @@ public class Main {
 
     public static void generateFiles(HashMap<String, Set<String>> map) {
         for (String key : map.keySet()) {
-            String fileWriteName = String.format("%s.csv", key);
+            String fileWriteName = String.format("%s.txt", key);
             try (FileWriter fw = new FileWriter(fileWriteName)) {
                 String string = String.valueOf(map.get(key));
                 fw.write(string.substring(1, string.length() - 1));
